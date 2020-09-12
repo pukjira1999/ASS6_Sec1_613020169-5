@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Friend_One">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/Briss"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:src="@drawable/briss"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ชื่อ กชกร จันทะไทย"
+        android:textSize="35sp"
+        android:textColor="#000"
+        android:layout_marginLeft="40dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="รหัส 613020505-5 "
+        android:textSize="35sp"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/clickme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO BACK MY FRIEND"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="#B1027F">
+
+    </Button>
+
+
+</LinearLayout>
